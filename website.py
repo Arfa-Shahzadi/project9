@@ -15,7 +15,7 @@ for i in range(1,16):
     student = {
         "ID": i,
         "Name": random.choice(names),
-        "Age": random.radiant(18,25),
+        "Age": random.radiant(18 , 25), 
         "Grade": random.choice(["A","B","C","D","E","F"]),
         "Marks": random.radiant(40,100)
     }
