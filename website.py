@@ -17,7 +17,7 @@ for i in range(1,16):
         "Name": random.choice(names),
         "Age": random.randint(18, 25), 
         "Grade": random.choice(["A","B","C","D","E","F"]),
-        "Marks": random.radiant(40,100)
+        "Marks": random.randint(40, 100)
     }
     students.append(student)
 
